@@ -13,9 +13,9 @@ export function Navbar() {
               <img src={logo} alt="" className='img-logo' />
             </div>
             <ul className="link">
-              <li><a href='#' >HOME</a></li>
-              <li><a href='#' >PRODUCT</a></li>
-              <li><a href='#' >ABOUT US</a></li>
+              <li><a href='home' >HOME</a></li>
+              <li><a href='product' >PRODUCT</a></li>
+              <li><a href='about' >ABOUT US</a></li>
             </ul>
           </div>
           <div className="menu-icon">

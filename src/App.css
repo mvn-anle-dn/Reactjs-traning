@@ -1,5 +1,14 @@
 .screen {
-  width: 100%;
+  width: auto;
   min-height: 100vh;
   height: auto;
+}
+
+.Body-2 {
+  height: 83.5vh;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
 }
