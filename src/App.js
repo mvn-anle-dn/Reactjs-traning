@@ -20,7 +20,7 @@ function App() {
         <>
         <div className='Body-2'>
           { timer.map(x => 
-          <Clock second = {x.time} />
+          <Clock key = {x.time} second = {x.time} />
           ) }
         </div>
         </>

@@ -56,11 +56,9 @@ class Clock extends Component {
             <div className="bottom-clock">
              <button onClick={this.startTime} >{this.state.name}</button> 
             </div>
-            
             <div id='time' className="time" >
               <p>{this.state.second}</p>
             </div>
-            
           </div>
         </>
       </div>
