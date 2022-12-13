@@ -30,6 +30,15 @@
 
 .img-logo {
  height: 90%;
+ animation: App-logo infinite 20s linear;
+}
+
+@keyframes App-logo {
+  from {
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(360deg);
+  }
 }
 
 .link {
