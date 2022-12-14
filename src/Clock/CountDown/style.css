@@ -241,7 +241,7 @@
 
    .count-down {
     width: 100%;
-    height: 250px;
+    height: 150px;
     background: black;
     display: flex;
     justify-content: space-between;
@@ -275,7 +275,7 @@
     text-transform: uppercase;
     width: 100%;
     padding: 0px 0px;
-    opacity: 0.8;
+    opacity: 0.78;
     display: flex;
     align-items: center;
     justify-items: center;
