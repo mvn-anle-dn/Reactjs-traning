@@ -1,0 +1,297 @@
+@font-face{
+  font-family:'font-clock';
+  src: url('./font-clock.ttf');
+ }
+
+.count-down {
+  width: 100%;
+  height: 350px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 90px;
+  opacity: 0.9;
+  font-family:'font-clock';
+}
+
+
+.time-box {
+  width: 350px;
+  height: 80%;
+  color: white;
+  /* background: gray; */
+}
+
+
+
+.time-show {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 180px;
+}
+
+.text-show {
+ width: 100%;
+ height: 10%;
+ font-size: 42px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.title-new-year {
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  font-size: 70px;
+  background: black;
+  width: 100%;
+  padding: 0px 90px;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.title-new-year p {
+  margin: 10px 0px;
+  font-weight: 800;
+  color: white;
+}
+
+.footer-new-year {
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 0px 90px;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background: black;
+}
+
+.date-current {
+  width: 50%;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.line {
+  height: 80%;
+  border: 3px solid white;
+}
+
+.text-date {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.time-date {
+  font-size: 50px;
+
+}
+
+@media (max-width: 820px) {
+  .time-show {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 110px;
+  }
+
+  .text-show {
+    width: 100%;
+    height: 10%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+
+   .count-down {
+    width: 100%;
+    height: 350px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+    opacity: 0.9;
+    font-family:'font-clock';
+  }
+   
+  .title-new-year p {
+    margin: 10px 0px;
+    font-weight: 800;
+    color: white;
+    font-size: 50px;
+  }
+
+  .text-date {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 0;
+  }
+  
+  .time-date {
+    font-size: 40px;
+  
+  }
+  
+}
+
+@media (max-width: 820px) {
+  .time-show {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 110px;
+  }
+
+  .text-show {
+    width: 100%;
+    height: 10%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+
+   .count-down {
+    width: 100%;
+    height: 350px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+    opacity: 0.9;
+    font-family:'font-clock';
+  }
+   
+  .title-new-year p {
+    margin: 10px 0px;
+    font-weight: 800;
+    color: white;
+    font-size: 50px;
+  }
+
+  .text-date {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 0;
+  }
+  
+  .time-date {
+    font-size: 40px;
+  
+  }
+  
+}
+
+
+@media (max-width: 500px) {
+
+  
+  .time-show {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+  }
+
+  .title-new-year {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 70px;
+    background: black;
+    width: 100%;
+    padding: 0px 0px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+  
+  
+  }
+
+  .text-show {
+    width: 100%;
+    height: 10%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+
+   .count-down {
+    width: 100%;
+    height: 250px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px;
+    opacity: 0.9;
+    font-family:'font-clock';
+  }
+   
+  .title-new-year p {
+    margin: 10px 0px;
+    font-weight: 800;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .text-date {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 0;
+  }
+  
+  .time-date {
+    font-size: 40px;
+  
+  }
+
+  .footer-new-year {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 0px 0px;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background: black;
+    flex-direction: column;
+  }
+
+  .line {
+    width: 100%;
+    border: 1px solid white;
+  }
+  
+}
+
+
+
+
+
+

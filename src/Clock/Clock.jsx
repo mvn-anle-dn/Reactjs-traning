@@ -18,7 +18,6 @@ class Clock extends Component {
   
 
   startTime() {
-    console.log(window.location.pathname);
     if (this.state.name == 'Restart') {
       this.setState({name: 'Start' , start: true , second: this.start})
     }else {

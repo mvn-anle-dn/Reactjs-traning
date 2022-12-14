@@ -12,3 +12,31 @@
   align-items: center;
   padding: 0px 100px;
 }
+
+.CountDown-body {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px;
+  background-image: url("./LunarNewYeard.jpeg");
+  flex-direction:column;
+  background-size: 100%;
+}
+
+@media (max-width: 600px){
+  .CountDown-body {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    background-image: url("./LunarNewYear2.jpeg");
+    flex-direction:column;
+    background-size: 100%;
+  }
+
+
+}

@@ -4,6 +4,7 @@ import { Navbar } from './Navbar/Navbar';
 import { Body } from './Body/Body';
 import { Footer } from './Footer/Footer';
 import Clock from './Clock/Clock';
+import CountDown from './Clock/CountDown/CountDown';
 
 function App() {
   const timer = [
@@ -14,7 +15,7 @@ function App() {
   ]
 
   function pathBody (){
-    console.log(window.location.pathname == '/home');
+
     if(window.location.pathname == '/home') {
       return (
         <>
@@ -26,17 +27,30 @@ function App() {
         </>
       )
 
-    } else {
+    } else if (window.location.pathname == '/product') {
        return <Body/>
+    }else {
+      return (
+        <>
+        
+          { 
+            <CountDown/>
+          }
+        </>
+      )
     }
   }
 
   return (
     <>
       <div className='screen'>
-        <Navbar/>
+        {/* <Navbar/>
           { pathBody() }
-        <Footer/>
+        <Footer/> */}
+        <div className='CountDown-body'>  
+        <CountDown/>
+        </div>
+       
       </div>
       
     </>
