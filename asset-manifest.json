@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Reactjs-traning/static/css/main.0e8b411e.css",
+    "main.css": "/Reactjs-traning/static/css/main.57760458.css",
     "main.js": "/Reactjs-traning/static/js/main.ed5e860d.js",
     "static/js/787.47052b0f.chunk.js": "/Reactjs-traning/static/js/787.47052b0f.chunk.js",
     "static/media/background.jpeg": "/Reactjs-traning/static/media/background.2aba4ac91fd0851a243e.jpeg",
@@ -12,12 +12,12 @@
     "static/media/twitter.svg": "/Reactjs-traning/static/media/twitter.83446d89542d907a6cf7028f375182de.svg",
     "index.html": "/Reactjs-traning/index.html",
     "static/media/facebook.svg": "/Reactjs-traning/static/media/facebook.8bd7076bdab74e8fdeffd009e2b60ec8.svg",
-    "main.0e8b411e.css.map": "/Reactjs-traning/static/css/main.0e8b411e.css.map",
+    "main.57760458.css.map": "/Reactjs-traning/static/css/main.57760458.css.map",
     "main.ed5e860d.js.map": "/Reactjs-traning/static/js/main.ed5e860d.js.map",
     "787.47052b0f.chunk.js.map": "/Reactjs-traning/static/js/787.47052b0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e8b411e.css",
+    "static/css/main.57760458.css",
     "static/js/main.ed5e860d.js"
   ]
 }
