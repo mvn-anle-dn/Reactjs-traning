@@ -1,0 +1,162 @@
+.component {
+  width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+
+}
+
+.left-form {
+  min-width: 400px;
+  min-height: 100vh;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.right-body{
+  width: 100%;
+  height: 100vh;
+  background: #312c2a;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+
+.form-css {
+  /* background: gray; */
+  opacity: 1;
+  width: 80%;
+  /* height: 80%; */
+}
+
+.title-text {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+
+.add-form {
+  width: 100%;
+  height: auto;
+  background: black;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+.box-input {
+  width: 100%;
+  height: auto;
+}
+
+.box-input-arena {
+  width: 100%;
+  height: 120px;
+}
+
+.title-label {
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+
+.boder-input {
+  height: 50px;
+  width: 100%;
+}
+
+.boder-input-radio {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.radio-input {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radio-input input {
+  width: 15px;
+  height:30px ;
+}
+
+.boder-input input {
+  height: 40px;
+  width: 99%;
+  padding: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 5px #999999;
+  text-shadow: 1px 1px 2px #666666;
+}
+
+.boder-input input:hover {
+  box-shadow: 5px 5px 10px #999999;
+  text-shadow: 2px 2px 4px #666666;
+}
+
+.boder-input select {
+  height: 40px;
+  width: 99%;
+  padding: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 5px #999999;
+  text-shadow: 1px 1px 2px #666666;
+}
+
+.boder-input textarea {
+  height: 80px;
+  width: 99%;
+  padding: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 5px #999999;
+  text-shadow: 1px 1px 2px #666666;
+}
+
+.checked-css {
+  display: flex;
+  align-items: center;
+}
+
+.checked-css {
+  display: flex;
+  align-items: center;
+}
+
+.checked-css input{
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.box-input button {
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.main-right {
+  background: wheat;
+  opacity: 0.6;
+  height: 100%;
+  width: 100%;
+}
+
