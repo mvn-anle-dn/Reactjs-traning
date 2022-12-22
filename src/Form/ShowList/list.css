@@ -1,0 +1,58 @@
+.page {
+  display: flex;
+  justify-content: space-around;
+}
+
+.page-css {
+  display: flex;
+  justify-content: space-between 5px;
+  width: auto;
+}
+
+.left-right {
+  margin: 20px 10px;
+  width: 100px;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.index {
+  margin: 20px 10px;
+  width: 50px;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.index:hover {
+  background: black;
+  color: white;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out ;
+
+}
+
+.left-right:hover {
+  background: red;
+  color: white;
+}
+
+.active {
+  background: black;
+  color: white;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out ;
+
+}
+
+.get-list {
+  min-height: 780px;
+}
+
+
+
+
+
