@@ -1,0 +1,81 @@
+@font-face {
+  font-family: fontPrice;
+  src: url('../fonts/SairaCondensed.ttf');
+}
+.product-main {
+  width: 100%;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(5,20%);
+  justify-items: center;
+  background: whitesmoke;
+  position: relative;
+}
+
+.card {
+  background: white;
+  width: 90%;
+  border-radius: 15px;
+  opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.bottom {
+  margin: 10px 0 40px 0;
+}
+
+.description h2 {
+  min-height: 56px;
+} 
+
+.description p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.price .price-text {
+  width: 70%;
+  background-image: linear-gradient(45deg , yellow 0% , orange 100% ) ;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  color: orangered;
+
+}
+
+.price .price-text p {
+  font-size: 30px;
+  font-family: fontPrice;
+  margin: 0px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.price .unit {
+  width: 30%;
+  background-image: linear-gradient(45deg , yellow 0% , orange 100% ) ;
+  margin: 0px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: rgb(151, 56, 8);
+}
+
+.price .unit p {
+  font-family: fontPrice;
+  font-size: 30px;
+  margin: 0px;
+} 
+
+@media screen and (max-width: 1500px) {
+  .product-main {
+    grid-template-columns: repeat(4,25%);
+  }
+}

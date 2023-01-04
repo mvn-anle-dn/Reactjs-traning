@@ -1,9 +1,9 @@
-import './style.css'
-import logo from './background.jpeg'
-import { Card } from './Card/Card'
+import '../../assets/scss/home.css'
+import logo from '../../assets/images/background.jpeg'
+import { Card } from './Card'
 
 
-export function Body() {
+export function Home() {
 const product = [
   {
     'title' : 'product 1',
@@ -24,7 +24,7 @@ const product = [
 ] 
 return (
   <>
-    <div className="main">
+    <div className="main-home">
       <div className="image">
         <img src={logo} alt="" className="img-css" />
         <h1>Welcome to react training!</h1>

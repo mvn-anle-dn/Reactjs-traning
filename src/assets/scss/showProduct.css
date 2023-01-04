@@ -1,0 +1,269 @@
+@font-face {
+  font-family: fontPrice;
+  src: url('../fonts/SairaCondensed.ttf');
+}
+
+.backgorund-show {
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 100%;
+  height: 100%;
+  background: gray;
+  opacity: 0.7;
+}
+
+.body-product {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-show {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+  height: auto;
+  background-image: linear-gradient(45deg , rgb(114, 90, 23) 0px , black 100%);
+  border-radius: 25px;
+  padding: 12px;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  /* box-shadow: rgb(255, 255, 255) 0px 30px 55px, rgb(255, 255, 255) 0px -12px 30px, rgb(255, 255, 255) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.image-product {
+  width: 40%;
+  height: 100%;
+  min-height: 60vh;
+  background: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 0px 20px 0px 0px;
+}
+
+.image-product img {
+  width: 100% ;
+  border-radius: 0px;
+  max-height: 80vh;
+  object-fit: cover;
+  
+}
+
+.description-product {
+  width: 60%;
+  height: 100%;
+}
+
+.description-product h1 {
+  text-transform: uppercase;
+}
+
+.description-product p {
+  text-align: start ;
+}
+
+.price-product {
+  width: 100%;
+  height: 61px;
+  background: gray;
+  display: flex;
+  text-align: center;
+  padding-left: 30px;
+  box-sizing: border-box;
+  font-family: fontPrice;
+  background-image: linear-gradient(45deg, orange 0%, yellow 100%);
+
+}
+
+.price-product p {
+  margin-left: 20px;
+  font-size: 37px;
+  margin: 0px;
+  font-weight: 500;
+}
+
+.price-product span {
+  font-size: 27px;
+}
+
+.description-product .description {
+  height: 200px;
+  /* background: gray; */
+  width: auto;
+}
+
+.input-prd {
+  width: 100%;
+  height: 120px;
+  background: gray;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.quantity {
+  width: 70%;
+  height: 100%;
+  background-image: linear-gradient(90deg , orange 0% , transparent 100% );
+  padding: 5px;
+  box-sizing: border-box;
+  color: black;
+
+}
+
+.quantity .transport {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid ;
+  color: white;
+}
+
+.title-transport {
+  width: 30%;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  color: white;
+  margin: 0px 20px;
+}
+
+.text-transport {
+  color: red;
+  font-weight: 500;
+}
+
+.quantity .count-prd {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+
+.count-prd .title-quantity {
+  width: 30%;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  color: white;
+  margin: 0px 20px;
+}
+
+.payment {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.count-prd p {
+  margin: 0px;
+}
+
+.minus {
+  width: 10%;
+  height: 50%;
+  background: white;
+  border: 1px solid gray;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+
+.number-prd {
+  width: 20%;
+  height: 50%;
+  background: white;
+  margin: 0px 5px;
+  border: 1px solid gray;
+  text-align: center;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.number-prd p {
+  color: black;
+}
+
+
+.plus {
+  width: 10%;
+  height: 50%;
+  background: white;
+  border: 1px solid gray;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bt-prd {
+  width: 80%;
+  height: 80%;
+  align-items: center;
+  background-image: linear-gradient(144deg,#ac6726, yellow 50%,rgb(147, 147, 50));
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #9e0b0b;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1500px) {
+  .product-show {
+    width: 80%;
+  }
+}
+
+.hidden {
+  transform: translate(-50%, -250%) !important;
+}
+
+.close-prd {
+  position: absolute;
+  top: 10px;
+  left: 97%;
+  border-radius: 50%;
+  border: 3px solid red;
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+

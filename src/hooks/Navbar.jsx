@@ -1,8 +1,9 @@
-import './style.css'
+import '../assets/scss/navbar.css'
 import logo from '../logo.svg'
-import iconFb from './facebook.svg'
-import twitter from './twitter.svg'
-import instagram from './instagram.svg'
+import iconFb from '../assets/images/Navbar/facebook.svg'
+import twitter from '../assets/images/Navbar/twitter.svg'
+import instagram from '../assets/images/Navbar/instagram.svg'
+import { Link } from 'react-router-dom'
 export function Navbar() {
   return (
     <>
@@ -13,9 +14,9 @@ export function Navbar() {
               <img src={logo} alt="" className='img-logo' />
             </div>
             <ul className="link">
-              <li><a href='#' >HOME</a></li>
-              <li><a href='#' >PRODUCT</a></li>
-              <li><a href='#' >ABOUT US</a></li>
+              <li><Link className='nav-link' to='/' >HOME</Link></li>
+              <li><Link className='nav-link' to='/product'>PRODUCT</Link></li>
+              <li><a className='nav-link' href='/'>ABOUT US</a></li>
             </ul>
           </div>
           <div className="menu-icon">
