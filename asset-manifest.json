@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Reactjs-traning/static/css/main.5a74bfa3.css",
+    "main.css": "/Reactjs-traning/static/css/main.8695cf86.css",
     "main.js": "/Reactjs-traning/static/js/main.ef9b3a5a.js",
     "static/js/787.47052b0f.chunk.js": "/Reactjs-traning/static/js/787.47052b0f.chunk.js",
     "static/media/kitty-dark.png": "/Reactjs-traning/static/media/kitty-dark.e8b8e6b87ff2f0bfff70.png",
     "index.html": "/Reactjs-traning/index.html",
-    "main.5a74bfa3.css.map": "/Reactjs-traning/static/css/main.5a74bfa3.css.map",
+    "main.8695cf86.css.map": "/Reactjs-traning/static/css/main.8695cf86.css.map",
     "main.ef9b3a5a.js.map": "/Reactjs-traning/static/js/main.ef9b3a5a.js.map",
     "787.47052b0f.chunk.js.map": "/Reactjs-traning/static/js/787.47052b0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a74bfa3.css",
+    "static/css/main.8695cf86.css",
     "static/js/main.ef9b3a5a.js"
   ]
 }
