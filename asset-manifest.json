@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/test-crawl/static/css/main.5b2c660d.css",
-    "main.js": "/test-crawl/static/js/main.84daddc4.js",
-    "static/js/787.47052b0f.chunk.js": "/test-crawl/static/js/787.47052b0f.chunk.js",
-    "static/media/kitty-dark.png": "/test-crawl/static/media/kitty-dark.e8b8e6b87ff2f0bfff70.png",
-    "index.html": "/test-crawl/index.html",
-    "main.5b2c660d.css.map": "/test-crawl/static/css/main.5b2c660d.css.map",
-    "main.84daddc4.js.map": "/test-crawl/static/js/main.84daddc4.js.map",
-    "787.47052b0f.chunk.js.map": "/test-crawl/static/js/787.47052b0f.chunk.js.map"
+    "main.css": "/Reactjs-traning/static/css/main.5b2c660d.css",
+    "main.js": "/Reactjs-traning/static/js/main.ef9b3a5a.js",
+    "static/js/787.47052b0f.chunk.js": "/Reactjs-traning/static/js/787.47052b0f.chunk.js",
+    "static/media/kitty-dark.png": "/Reactjs-traning/static/media/kitty-dark.e8b8e6b87ff2f0bfff70.png",
+    "index.html": "/Reactjs-traning/index.html",
+    "main.5b2c660d.css.map": "/Reactjs-traning/static/css/main.5b2c660d.css.map",
+    "main.ef9b3a5a.js.map": "/Reactjs-traning/static/js/main.ef9b3a5a.js.map",
+    "787.47052b0f.chunk.js.map": "/Reactjs-traning/static/js/787.47052b0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b2c660d.css",
-    "static/js/main.84daddc4.js"
+    "static/js/main.ef9b3a5a.js"
   ]
 }
