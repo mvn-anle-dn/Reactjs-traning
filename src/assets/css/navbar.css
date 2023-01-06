@@ -82,6 +82,10 @@
   .text-title {
     color: white;
   }
+
+  .body {
+    padding: 10px 10px ;
+  }
 } 
 
 
