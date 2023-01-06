@@ -5,6 +5,7 @@ import axios from 'axios'
 import { useEffect } from 'react';
 import ShowCat from './ShowCat';
 
+
 export default function Body() {
   const url = 'https://api.thecatapi.com/v1/images/search?limit=20'
   const [list , setList] = useState([]) 
@@ -13,9 +14,12 @@ export default function Body() {
   const [list4 , setList4] = useState([]) 
   const [list5 , setList5] = useState([]) 
   const [list6 , setList6] = useState([]) 
-  const setShowPt = null ;
+
+  const [image , setImage] = useState();
+  const [slide , setSlide] = useState(false)
 
   useEffect(()=> {
+  
     async function listCat(set) {
       let getAPIlist = await axios.get(url)
       let getlist = getAPIlist.data
@@ -47,35 +51,15 @@ export default function Body() {
   }))
 
   function showMew(index) {
-    console.log(listAll[index]);
-    return setShowPt = listAll[index] ;
+    setImage(listAll[index].url) ;
+    console.log('check');
+
   }
-
-
-
-  // const photos2 = list2.map((photo) => ({
-  //   src: photo.url,
-  //   width: photo.width,
-  //   height: photo.height,
-  // }))
-
-  // const photos3 = list3.map((photo) => ({
-  //   src: photo.url,
-  //   width: photo.width,
-  //   height: photo.height,
-  // }))
 
   const Gallery = () => {
-    return <PhotoAlbum layout="columns" photos={photos} onClick={({ index }) => showMew(index)} />;
+    return <PhotoAlbum layout="columns" photos={photos} onClick={({ index }) => {showMew(index); setSlide(true);}} />;
   }
   
-  // const Gallery2 = () => {
-  //   return <PhotoAlbum layout="columns" photos={photos2} />;
-  // }
-
-  // const Gallery3 = () => {
-  //   return <PhotoAlbum layout="columns" photos={photos3} />;
-  // }
 
   return (
     <>
@@ -86,7 +70,7 @@ export default function Body() {
           </div>
         </div>
       </div>
-      <ShowCat/>
+      <ShowCat key={image} img = {image} show = {slide} set = {setSlide} />
 
       
     </>

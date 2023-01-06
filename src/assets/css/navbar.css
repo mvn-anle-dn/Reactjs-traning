@@ -70,5 +70,19 @@
   grid-gap: 20px;
 }
 
+@media screen and (max-width: 500px){
+  .ip-search {
+    display: none;
+  }
+
+  .search-cat {
+    display: none;
+  }
+
+  .text-title {
+    color: white;
+  }
+} 
+
 
 

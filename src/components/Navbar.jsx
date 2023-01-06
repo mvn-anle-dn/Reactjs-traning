@@ -8,7 +8,7 @@ export default function Navbar() {
     <div className="block">
       <div className="main-navbar">
         <img src={logo} alt="" className="cat-icon" />
-        <div className="text-title">ABUM CAT</div>
+        <div className="text-title">ALBUM CAT</div>
         <div className="search-cat">
           <input type="text" className="ip-search" placeholder='Search Cat' />
           <button className="btn-search">SEARCH</button>
