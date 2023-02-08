@@ -1,0 +1,63 @@
+.nbl-user {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 20px ;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.nbl-user .user-avata {
+  width: 85px;
+  height: auto;
+  overflow: hidden;
+
+}
+
+
+.nbl-user .user-avata img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+
+.nbl-user .user-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: calc(100% - 70px);
+  height: 75px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.nbl-user .user-info .userName {
+  height: 30%;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: white;
+  margin-bottom: 5px;
+  border-bottom: 1px solid ;
+}
+
+.nbl-user .user-info .contract {
+  height: 40%;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: white;
+
+}
+
+.nbl-user .user-info .logout {
+  width: 100%;
+  cursor: pointer;
+  font-weight: 500;
+
+}

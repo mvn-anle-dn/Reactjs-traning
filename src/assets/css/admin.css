@@ -1,0 +1,25 @@
+.main-admin {
+  background: #F7F7F7;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+}
+
+.navbar-left {
+  width: 230px;
+  height: 100%;
+  
+}
+
+
+.admin-body {
+  width: calc(100% - 230px);
+  height: 100%;
+  background: gray;
+  padding : 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
