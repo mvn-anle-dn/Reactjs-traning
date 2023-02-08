@@ -1,0 +1,37 @@
+.nbl-menu {
+  margin-top: 20px;
+}
+
+.nbl-menu .menu-list {
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.nbl-menu .menu-list h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.nbl-menu .menu-list:hover {
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.active {
+  background: black !important;
+  color: aliceblue;
+}
